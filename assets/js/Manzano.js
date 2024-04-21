@@ -1,5 +1,5 @@
 
-function exercicio1() {
+function exercicio01() {
 
   let grausC = parseFloat(prompt('Digite a temperatura em Celsius: '));
   let conversao = (9 * grausC + 160) / 5;
@@ -7,7 +7,7 @@ function exercicio1() {
   alert("Em Fahrenheit fica: " + conversao);
 }
 
-function exercicio2() {
+function exercicio02() {
 
   let grausF = parseFloat(prompt('Digite a temperatura em Fahrenheit: '));
   let conversao = (grausF - 32) / 1.8;
@@ -15,7 +15,7 @@ function exercicio2() {
   alert("Em Celsius fica: " + conversao);
 }
 
-function exercicio3() {
+function exercicio03() {
  
 
   let altura = parseFloat(prompt("Digite a altura da Lata de óleo (em cm): "));
@@ -26,7 +26,7 @@ function exercicio3() {
   alert(`O Volume é: ${vol}`);
 }
 
-function exercicio4() {
+function exercicio04() {
   
 
   let temp = parseFloat(prompt("Digite quanto tempo levou a viagem (em horas): "));
@@ -38,7 +38,7 @@ function exercicio4() {
   alert(`Tempo da viagem: ${temp} horas\nVelocidade média: ${velocidade} KM/h\nDistância percorrida: ${distancia} KM\nLitros usados: ${litrosUsados}`);
 }
 
-function exercicio5() {
+function exercicio05() {
 
   let valor = parseFloat(prompt("Qual é o valor da prestação atrasada: "));
   let taxa = parseFloat(prompt("Qual é a taxa aplicada na prestação atrasada: "));
@@ -49,7 +49,7 @@ function exercicio5() {
 
 }
 
-function exercicio6() {
+function exercicio06() {
 
   let a = parseFloat(prompt("Digite o primeiro valor: "));
   let b = parseFloat(prompt("Digite o segundo valor: "));
@@ -58,7 +58,7 @@ function exercicio6() {
   alert(`Os valores trocados, são respectivamente: ${a}, ${b}`);
 }
 
-function exercicio7() {
+function exercicio07() {
 
   let a = parseInt(prompt("Digite o valor de A: "));
   let b = parseInt(prompt("Digite o valor de B: "));
@@ -89,7 +89,7 @@ A multiplicação de C com D é: ${c * d}
 
 }
 
-function exercicio8() {
+function exercicio08() {
 
   let comprimento = parseFloat(prompt("Digite o valor do comprimento da caixa: "));
   let altura = parseFloat(prompt("Digite o valor da altura da caixa: "));
@@ -100,7 +100,7 @@ function exercicio8() {
 
 }
 
-function exercicio9() {
+function exercicio09() {
 
   let num1 = parseInt(prompt("Digite o primeiro valor: "));
   let num2 = parseInt(prompt("Digite o segundo valor: "));
